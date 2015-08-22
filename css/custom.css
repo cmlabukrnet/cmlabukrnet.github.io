@@ -1,0 +1,52 @@
+body {
+    background-color: #ececec;
+    border-top: 5px solid #7e7e7e;
+    background-image: url(../img/bgr.png);
+    background-position: top left;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+#brand-image {
+    width: auto;
+    height: 30px;
+    vertical-align: middle;
+    display: inline;
+}
+/*
+h1 {
+    text-shadow: -1px -1px 1px rgba(0,0,0,0.5);
+}
+*/
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    color: #4b4b4b;
+    font-family: 'Open Sans',Arial,sans-serif;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+footer {
+    background-image: url(../img/nitka.png);
+    background-repeat: repeat-x;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-color: #1f75ab;
+}
+
+ul.nav {
+    white-space: nowrap;
+    display: block;
+    font-size: 0.9em;
+    z-index: 100;
+    cursor: pointer;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-weight: normal;
+    line-height: 60px;
+    overflow: visible;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
