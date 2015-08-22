@@ -7,6 +7,19 @@ body {
     background-attachment: scroll;
 }
 
+.top {
+    width: 100%;
+    max-width: 1600px;
+    z-index: -10;
+    position: fixed;
+    height: 65px;
+    top: 0;
+    background-color: #2176ab;
+    padding-left: 15px;
+    font-family: Lato, sans-serif !important;
+    padding: 20px 30px 10px 28px;
+}
+
 #brand-image {
     width: auto;
     height: 30px;
