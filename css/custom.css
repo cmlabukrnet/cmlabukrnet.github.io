@@ -1,23 +1,43 @@
 body {
     background-color: #ececec;
-    border-top: 5px solid #7e7e7e;
+    border-top: 5px solid #2176ab;
     background-image: url(../img/bgr.png);
     background-position: top left;
     background-repeat: repeat;
     background-attachment: scroll;
 }
 
-.top {
-    width: 100%;
-    max-width: 1600px;
-    z-index: -10;
-    position: fixed;
-    height: 65px;
-    top: 0;
-    background-color: #2176ab;
-    padding-left: 15px;
-    font-family: Lato, sans-serif !important;
-    padding: 20px 30px 10px 28px;
+.myvertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.verticcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.toppp {
+    display: block;
+    padding: 5px 5px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0275d8;
+}
+
+.inblocs {
+    display: inline-block;
+    padding: 5px 5px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0275d8;
+}
+
+.top div {
+    float: right;
+    padding-top: 14px;
+    letter-spacing: 4px;
 }
 
 #brand-image {
