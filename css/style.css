@@ -3,3 +3,7 @@ P {
     text-align: justify; /* Выравнивание по ширине */
     font-size: 24px;
 }
+
+.collapsible-header{
+    font-size: 30px;
+}
