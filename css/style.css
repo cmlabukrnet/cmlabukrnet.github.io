@@ -1,5 +1,5 @@
 body {
-    background-color: #263238;
+    background-color: #000000; /*#263238;*/
 }
 
 P {
@@ -9,7 +9,7 @@ P {
     color: #E8F5E9;
 }
 
-h1, h5 {
+h1, h2, h5 {
     color: #E8F5E9;
 }
 
