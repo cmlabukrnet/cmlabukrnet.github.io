@@ -1,11 +1,16 @@
 body {
-    background-color: #323232;
+    background-color: #263238;
 }
 
 P {
     text-indent: 1.5em; /* Отступ первой строки */
     text-align: justify; /* Выравнивание по ширине */
     font-size: 24px;
+    color: #E8F5E9;
+}
+
+h1 {
+    color: #E8F5E9;
 }
 
 .collapsible-header{
