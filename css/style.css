@@ -16,3 +16,14 @@ h1, h2, h5 {
 .collapsible-header{
     font-size: 30px;
 }
+.side-nav {
+    background-color: #9F9F9F;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    color: #E8F5E9;
+}
+
+.dropdown-content li {
+    background-color: #000000;
+}
