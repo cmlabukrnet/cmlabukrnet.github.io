@@ -12,15 +12,29 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="index.html"><img src="images/ua.png"></a></li>
+    <li class="divider"></li>
+    <li><a href="index.html"><img src="images/sk.png"></a></li>
+    <li class="divider"></li>
+    <li><a href="index.html"><img src="images/en.png"></a></li>
+</ul>
 <nav class=" black" role="navigation">
-    <div class="nav-wrapper container black ">
-        <a id="logo-container" href="http://cmlabs.eu" class="brand-logo"><img src="images/logo.png"></a>
+    <div class="nav-wrapper container black">
+        <a id="logo-container" href="http://cmlabs.eu" class="brand-logo">
+            <img src="images/logo.png"></a>
+
+        <ul class="right ">
+            <li><a class="dropdown-button" href="index.html" data-activates="dropdown1"><img src="images/ua.png" ><i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
         <ul class="right hide-on-med-and-down">
             <li><a class="white-text" href="index.html">Про нас</a></li>
             <li><a class="white-text" href="services.html">Наші послуги</a></li>
             <li><a class="white-text" href="certificates.html">Сертифікати</a></li>
             <li><a class="white-text" href="#">Графік роботи 24/7</a></li>
         </ul>
+
 
         <ul id="nav-mobile" class="side-nav">
             <li><a href="index.html">Про нас</a></li>
@@ -31,6 +45,7 @@
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
 </nav>
+
 
 
 <div class="parallax-container">
@@ -65,10 +80,11 @@
         <div class="col s12 m6">
             <img class="materialboxed" width="100%" src="img/20001.jpg">
             <br>
-            <img class="materialboxed" width="100%" src="img/50001.jpg">
-            <br>
             <img class="materialboxed" width="100%" src="img/110001.jpg">
             <br>
+            <img class="materialboxed" width="100%" src="img/50001.jpg">
+            <br>
+
             <img class="materialboxed" width="100%" src="img/10001.jpg">
             <br>
 
