@@ -14,11 +14,17 @@ h1, h2, h5 {
 }
 
 h1 {
-
     font-size: 40px;
     text-shadow: 2px 2px 4px #000000;
 }
 
+nav ul a {
+    padding: 0 10px;
+}
+
+i.right {
+    margin-left: 1px;
+}
 
 .collapsible-header{
     font-size: 30px;
@@ -39,4 +45,6 @@ h1 {
 .dropdown-content li {
     background-color: #000000;
 }
+
+
 
