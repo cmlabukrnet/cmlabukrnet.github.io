@@ -24,8 +24,14 @@ h1, h2, h5 {
 
 .dropdown-content li>a, .dropdown-content li>span {
     color: #E8F5E9;
+    font-size: 12px;
+
+    padding-left: 6px;
+    padding-right: 0px;
+
 }
 
 .dropdown-content li {
     background-color: #000000;
 }
+
